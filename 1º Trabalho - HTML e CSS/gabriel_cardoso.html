@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt_br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Gabriel Cardoso</title>
+    <link id="css1" rel="stylesheet" href="style1.css">
+    <script type="text/javascript">
+      var elemento = document.getElementById("css1");
+      function muda_tema(){
+        if (css1 == true) {
+          elemento.setAttribute("href", "style1.css");
+          css1 = false;
+        }else{
+          elemento.setAttribute("href", "style2.css");
+          css1 = true;
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div class="botao">
+      <p class="msg">Mudança de Tema:</p>
+      <label class="switch">
+        <input type="checkbox" onclick="muda_tema()">
+        <span class="slider round"></span>
+      </label>
+    </div>
+
+    <div id="menu">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#produtos">Produtos</a></li>
+        <li><a href="#quem_somos">Quem Somos</a></li>
+        <li><a href="#links">Links</a></li>
+        <li><a href="#creditos">Créditos</a></li>
+      </ul>
+    </div>
+
+    <div id="titulo" class="titulo">
+      <h1>ENGENHARIA DE COMPUTAÇÃO</h1>
+    </div>
+
+    <div id="home" class="home">
+      <h2>HOME</h2>
+      <p>
+        BEM VINDO
+      </p>
+    </div>
+
+    <div id="produtos" class="produtos">
+      <h2>PRODUTOS</h2>
+      <div class="prod">
+        <div class="tudo1">
+          <h3 class="t1">Sites</h3>
+          <img src="imgs/www.jpg" alt="WWW" width="250px" height="250px" style="border-radius:30%">
+          <p>
+            <ul>
+              <li>Rápido</li>
+              <li>Seguro</li>
+              <li>Bonito</li>
+            </ul>
+          </p>
+        </div>
+        <div class="tudo2">
+          <h3 class="t2">Segurança Digital</h3>
+          <img src="imgs/seguranca.jpg" alt="Segurança" width="250px" height="250px" style="border-radius:30%">
+          <p>
+            <ul>
+              <li>Certificado CISCO</li>
+              <li>Seguro</li>
+              <li>Garantia ILIMIATADA</li>
+            </ul>
+          </p>
+        </div>
+        <div class="tudo3">
+          <h3 class="t3">Aulas e Palestras</h3>
+          <img src="imgs/aulas.jpg" alt="Aulas" width="250px" height="250px" style="border-radius:30%">
+          <p>
+            <ul>
+              <li>As melhores do Mercado</li>
+              <li>Eficiente</li>
+              <li>Treinamentos e Capacitações</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div id="quem_somos" class="quem_somos">
+      <h2>QUEM SOMOS</h2>
+      <p>
+        A Engenharia de Computação é parte integrante da Faculdade de Engenharia Elétrica (Feelt) desde 1987 quando foram criadas duas ênfases para o Engenheiro Eletricista formado pela UFU: Eletrotécnica e Eletrônica (Engenharia de Computação), pela Resolução nº 12/87 do Conselho Universitário. Posteriormente, em 2005, estas ênfases foram transformadas em Certificado em Engenharia de Sistemas de Energia Elétrica, Certificado em Engenharia de Computação e Certificado em Engenharia Eletrônica e de Telecomunicações. E, finalmente, foi criado o Curso de Graduação em Engenharia de Computação, recebendo os seus primeiros alunos no primeiro semestre de 2013, visando atender à crescente demanda por profissionais com esta qualificação.
+      </p>
+    </div>
+    <div id="links" class="links">
+      <h2>LINKS</h2><br>
+      <div class="imgs">
+        <div class="tudo1">
+          <a href="https://www.facebook.com" target="_blank"><img src="imgs/facebook.png" alt="Facebook"></a>
+        </div>
+        <div class="tudo2">
+          <a href="https://www.instagram.com" target="_blank"><img src="imgs/instagram.png" alt="Instagram"></a>
+        </div>
+        <div class="tudo3">
+          <a href="https://web.whatsapp.com/" target="_blank"><img src="imgs/whatsapp.png" alt="Whatsapp"></a>
+        </div>
+        <div class="tudo4">
+          <a href="https://www.youtube.com.br" target="_blank"><img src="imgs/youtube.png" alt="Youtube"></a>
+        </div>
+        <div class="tudo5">
+          <a href="https://www.ufu.br" target="_blank"><img src="imgs/ufu.png" alt="UFU"></a>
+        </div>
+      </div>
+    </div>
+    <div id="creditos" class="creditos">
+      <footer>
+        <h2>CRÉDITOS</h2>
+        <p>Feito por: Gabriel Cardoso Mendes de Ataide</p>
+      </footer>
+    </div>
+  </body>
+</html>
